@@ -1,0 +1,15 @@
+{
+	"name": "best-app",
+	"version": "0.0.0",
+	"description": "Приложение, от которого нельзя отказаться",
+	"main": "app/index.html",
+	"window": {
+		"icon": "favicon.ico",
+		"show": false,
+		"position": "center",
+		"width": 1000,
+		"height": 700,
+		"toolbar": false
+	},
+	"dependencies": {}
+}

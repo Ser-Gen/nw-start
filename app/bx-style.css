@@ -1,0 +1,111 @@
+.bx-im-fullscreen {
+	background-color: #ddd !important;
+}
+
+.bx-im-fullscreen-td1,
+.bx-im-fullscreen-td3 {
+	display: none !important;
+}
+
+table.bx-im-fullscreen-table {
+	border-spacing: 0 !important;
+}
+.bx-im-fullscreen-td2 {
+	padding: 0 !important;
+}
+
+.bx-im-fullscreen .bx-desktop-placeholder {
+	box-shadow: none !important;
+	border-radius: 0 !important;
+	width: 100% !important;
+	height: 100vh !important;
+	vertical-align: middle !important;
+	line-height: 1em !important;
+}
+.bx-im-fullscreen .bx-desktop-appearance {
+	height: 100% !important;
+}
+.bx-im-fullscreen .bx-desktop-appearance-menu {
+	height: 100% !important;
+	border-radius: 0 !important;
+}
+
+.bx-im-fullscreen .bx-desktop-appearance-content {
+	height: 100% !important;
+	position: absolute !important;
+	width: calc(100% - 45px) !important;
+}
+
+.bx-messenger-box.bx-messenger-mark,
+.bx-desktop-tab-content {
+	height: 100% !important;
+}
+
+.bx-messenger-box .bx-messenger-box-contact {
+	height: 100% !important;
+	box-sizing: border-box !important;
+	display: flex !important;
+	flex-direction: column !important;
+	max-height: 100vh;
+	transition: .2s !important;
+}
+
+.bx-messenger-box .bx-messenger-cl {
+	flex: 1 0;
+}
+
+.bx-messenger-box .bx-messenger-box-dialog[style*='display: none'] {
+	display: none !important;
+}
+
+.popup-window-light {
+	border: 0 !important;
+	border-radius: 0 !important;
+	box-shadow: 0 6px 11px rgba(0,0,0,.17) !important;
+}
+.popup-window-bottom-row {
+	height: 0 !important;
+}
+.bx-messenger-history-with-disk .bx-messenger-history-type-message {
+	vertical-align: top !important;
+}
+
+.bx-messenger-panel-call-enabled {
+	display: none !important;
+}
+.bx-messenger-call-overlay {
+	min-height: 100%;
+}
+
+
+.bx-messenger-body-dialog {
+	display: flex;
+	flex-direction: column;
+	height: calc(100vh - 66px);
+}
+.bx-messenger-body {
+	flex: 1 0 100px;
+	height: auto !important;
+}
+.bx-messenger-textarea-place {
+	flex: 0 1 100px;
+}
+
+.bx-messenger-box-extra {
+	height: 100vh !important;
+}
+.bx-notifier-wrap {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.bx-messenger-panel {
+	flex: 0 1 66px;
+}
+.bx-messenger-panel-filter-box {
+	flex: 0 1 27px;
+}
+.bx-notifier-item-wrap {
+	flex: 1 0 100px;
+	height: auto !important;
+}
